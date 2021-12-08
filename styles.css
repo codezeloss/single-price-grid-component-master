@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap");
 /*
       SPACE SIZE SYSTEM (px)
       2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 /
@@ -9,12 +11,123 @@
       */
 
 /*
-      MAIN COLOR: #e67e22;
-      GREY COLOR: #444;
+      MAIN COLOR: {};
+      GREY COLOR: ;
+      font-family: 'Karla', sans-serif;
       */
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  color: #fff;
+  background-color: hsl(204, 43%, 93%);
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 650px;
+  /* background-color: coral; */
+}
+
+.first-grid {
+  background-color: #fff;
+  padding: 42px;
+  padding-bottom: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.green-heading {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+
+  margin-bottom: 12px;
+}
+
+.main-paragraph {
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.second-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 16px;
+}
+
+.first-section {
+  background-color: hsl(179, 62%, 43%);
+  padding: 42px;
+  border-bottom-left-radius: 10px;
+}
+.second-section {
+  background-color: hsl(179, 62%, 48%);
+  padding: 42px;
+  border-bottom-right-radius: 10px;
+}
+
+.payement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 34px;
+  margin-right: 12px;
+}
+
+.duration {
+  color: #c5f6fa;
+  font-weight: 200;
+}
+
+.details-paragraph {
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+.btn {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  padding: 13px 88px;
+  margin-right: 42px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  cursor: pointer;
+}
+
+.list {
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.4;
 }
